@@ -7,8 +7,10 @@
             <img src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1179.png" alt="" class="rounded-circle w-100">
         </div>
         <div class="col-9 pt-5">
-            <div>
-            <h1>{{ $user->username}}</h1>
+            <div class="d-flex justify-content-between align-items-baseline">
+
+                <h1>{{ $user->username}}</h1>
+                <a href="#">Add new post</a>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>123</strong> posts</div>
